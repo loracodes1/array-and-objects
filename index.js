@@ -19,6 +19,9 @@ console.log(fruits)
 fruits.unshift("grapes") //adds a new element at the start of the array
 console.log(fruits)
 
+fruits.shift() //removes the first element
+console.log(fruits)
+
 
 
 
