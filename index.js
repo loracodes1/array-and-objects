@@ -13,6 +13,10 @@ console.log(fruits) // the output will be [ 'apples', 'blueberry', 'watermelon',
 fruits.push("orange") // this will add "orange" at the end
 console.log(fruits) // the output will be[ 'apples', 'blueberry', 'watermelon', 'cherry', 'orange' ]
 
+fruits.pop() //Removes the last element from an array and returns it. If the array is empty, undefined is returned and the array is not modified.
+console.log(fruits)
+
+fruits
 
 
 
