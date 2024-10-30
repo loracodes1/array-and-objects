@@ -1,0 +1,1 @@
+let fruits =["apples", "pineapples" , "watermelon" , "cherry"] //literal notation
