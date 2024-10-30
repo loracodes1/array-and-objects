@@ -10,3 +10,44 @@ console.log(numbers[2]) //it will output 18
 fruits[1]="blueberry" // changes the fruit in the second position which is index 1 to blueberry
 console.log(fruits) // the output will be [ 'apples', 'blueberry', 'watermelon', 'cherry' ]
 
+fruits.push("orange") // this will add "orange" at the end
+console.log(fruits) // the output will be[ 'apples', 'blueberry', 'watermelon', 'cherry', 'orange' ]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
