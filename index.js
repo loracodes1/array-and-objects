@@ -99,6 +99,10 @@ let person ={
 console.log(person)
 
 //CREATING AN OBJECT USING THE new object() constructor
+let car = new Object();
+car.brand = "Toyota"
+car.year = 2020
+car.model = "TX Prado"
 
 
 
