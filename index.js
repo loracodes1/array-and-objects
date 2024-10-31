@@ -54,6 +54,18 @@ const max = NUMBERS.reduce((accumulator, currentValue) => {
 
 console.log(max); // Output: 7
 
+//3.Counting Occurrences of Values
+
+const fruits = ["apple", "banana", "apple", "orange", "banana", "apple"];
+
+const fruitCounts = fruits.reduce((accumulator, currentValue) => {
+    accumulator[currentValue] = (accumulator[currentValue] || 0) + 1;
+    return accumulator;
+}, {});
+
+console.log(fruitCounts); 
+// Output: { apple: 3, banana: 2, orange: 1 }
+
 
 
 
