@@ -45,6 +45,16 @@ const sum = numberS.reduce((accumulator, currentValue) => accumulator + currentV
 
 console.log(sum); // Output: 15
 
+//2.Finding the maximum number in an array
+const NUMBERS = [1, 3, 7, 2, 5];
+
+const max = NUMBERS.reduce((accumulator, currentValue) => {
+    return currentValue > accumulator ? currentValue : accumulator;
+}, NUMBERS[0]);
+
+console.log(max); // Output: 7
+
+
 
 
 
