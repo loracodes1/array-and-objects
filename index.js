@@ -107,10 +107,22 @@ car.model = "TX Prado"
 console.log(car)
 console.log(car.brand)
 
+car.brand = "Levorg"
+delete car.model 
+
+
 // Accessing and Modifying Object Properties
 // You can access properties using dot notation or bracket notation
 console.log(person.name);
 console.log(person["age"])
+
+//modifying object properties
+person.age = 31; // Update property
+person.city = "New York"; // Add new property
+delete person.isStudent; // Remove property
+
+console.log(person)
+console.log(car)
 
 
 
