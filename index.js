@@ -34,6 +34,18 @@ console.log(squares)
 let evenNumbers = Numbers.filter(num =>num%2 ===0)
 console.log(evenNumbers)
 
+// .reduce()
+// The .reduce() method in JavaScript is a powerful array method used to process each element in an array and “reduce” it to a single cumulative value. Unlike .map() or .filter(), which return a new array, .reduce() returns a single value based on the logic in the function you provid
+// examples of .reduce() in action
+
+//1.summing up all elements in an array 
+const numberS = [1, 2, 3, 4, 5];
+
+const sum = numberS.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
+
+console.log(sum); // Output: 15
+
+
 
 
 
