@@ -97,6 +97,7 @@ let person ={
     residence: "Meru town"
 }
 console.log(person)
+console.log(person.name)
 
 //CREATING AN OBJECT USING THE new object() constructor
 let car = new Object();
