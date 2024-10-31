@@ -103,6 +103,8 @@ let car = new Object();
 car.brand = "Toyota"
 car.year = 2020
 car.model = "TX Prado"
+console.log(car)
+console.log(car.brand)
 
 
 
