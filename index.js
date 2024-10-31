@@ -66,6 +66,13 @@ const fruitCounts = fruits.reduce((accumulator, currentValue) => {
 console.log(fruitCounts); 
 // Output: { apple: 3, banana: 2, orange: 1 }
 
+//EXPLANATION
+// accumulator starts as an empty object {}.
+// Each fruit name is checked in accumulator.
+// If it exists, it’s incremented by 1.
+// If it doesn’t exist, it’s set to 1.
+// The final object has counts of each fruit.
+
 
 
 
