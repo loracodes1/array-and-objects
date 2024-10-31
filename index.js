@@ -22,6 +22,12 @@ console.log(fruits)
 fruits.shift() //removes the first element
 console.log(fruits)
 
+//ARRAY METHODS
+let Numbers = [1,2,3]
+let squares = Numbers.map(num => num*num)
+console.log(squares)
+
+
 
 
 
