@@ -146,6 +146,21 @@ console.log(values)
 let entries = Object.entries(person)
 console.log(entries)
 
+//ARRAY OF OBJECTS
+let students = [
+    { name: "Alice", age: 25, grade: "A" },
+    { name: "Bob", age: 22, grade: "B" },
+    { name: "Charlie", age: 23, grade: "A" }
+];
+
+// Accessing an object within an array
+console.log(students[1].name); // Output: "Bob"
+
+// Using .filter() to find students with grade "A"
+let topStudents = students.filter(student => student.grade === "A");
+console.log(topStudents); // [{ name: "Alice", ... }, { name: "Charlie", ... }]
+
+
 
 
 
