@@ -73,6 +73,15 @@ console.log(fruitCounts);
 // If it doesn’t exist, it’s set to 1.
 // The final object has counts of each fruit.
 
+//4.flattening an array of arrays
+const nestedArray = [[1, 2], [3, 4], [5, 6]];
+
+const flatArray = nestedArray.reduce((accumulator, currentValue) => accumulator.concat(currentValue), []);
+
+console.log(flatArray); 
+// Output: [1, 2, 3, 4, 5, 6]
+
+
 
 
 
