@@ -84,6 +84,9 @@ console.log(flatArray);
 //.forEach()
 numbers.forEach(num => console.log(num));
 
+//.find() array method 
+let firstEven = numbers.find(num => num % 2 ===0)
+
 
 
 
