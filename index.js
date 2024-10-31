@@ -22,7 +22,7 @@ console.log(fruits)
 fruits.shift() //removes the first element
 console.log(fruits)
 
-//ARRAY METHODS
+//ARRAY METHODS //creates a new array by applying a function to each element
 let Numbers = [1,2,3]
 let squares = Numbers.map(num => num*num)
 console.log(squares)
