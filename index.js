@@ -124,6 +124,19 @@ delete person.isStudent; // Remove property
 console.log(person)
 console.log(car)
 
+//NESTING OBJECTS AND ARRAYS IN OBJECTS
+let student = {
+    name: "Bob",
+    courses: ["Math", "Science"],
+    address: {
+        street: "123 Main St",
+        city: "Metropolis"
+    }
+};
+
+console.log(student.address.city); // Output: "Metropolis"
+
+
 
 
 
