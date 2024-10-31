@@ -22,10 +22,17 @@ console.log(fruits)
 fruits.shift() //removes the first element
 console.log(fruits)
 
-//ARRAY METHODS //creates a new array by applying a function to each element
-let Numbers = [1,2,3]
+//ARRAY METHODS 
+
+//.map()
+//creates a new array by applying a function to each element
+let Numbers = [1,2,3,6]
 let squares = Numbers.map(num => num*num)
 console.log(squares)
+
+//.filter()
+let evenNumbers = Numbers.filter(num =>num%2 ===0)
+console.log(evenNumbers)
 
 
 
