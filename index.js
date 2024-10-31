@@ -96,7 +96,9 @@ let person ={
     isStudent: true,
     residence: "Meru town"
 }
+console.log(person)
 
+//CREATING AN OBJECT USING THE new object() constructor
 
 
 
