@@ -107,6 +107,10 @@ car.model = "TX Prado"
 console.log(car)
 console.log(car.brand)
 
+// Accessing and Modifying Object Properties
+// You can access properties using dot notation or bracket notation
+
+
 
 
 
