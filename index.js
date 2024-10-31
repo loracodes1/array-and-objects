@@ -56,7 +56,7 @@ console.log(max); // Output: 7
 
 //3.Counting Occurrences of Values
 
-const fruits = ["apple", "banana", "apple", "orange", "banana", "apple"];
+const fruitS = ["apple", "banana", "apple", "orange", "banana", "apple"];
 
 const fruitCounts = fruits.reduce((accumulator, currentValue) => {
     accumulator[currentValue] = (accumulator[currentValue] || 0) + 1;
@@ -80,6 +80,10 @@ const flatArray = nestedArray.reduce((accumulator, currentValue) => accumulator.
 
 console.log(flatArray); 
 // Output: [1, 2, 3, 4, 5, 6]
+
+//.forEach()
+numbers.forEach(num => console.log(num));
+
 
 
 
