@@ -136,6 +136,16 @@ let student = {
 
 console.log(student.address.city); // Output: "Metropolis"
 
+//OBJECT METHODS
+let keys = Object.keys(person)
+console.log(keys)
+
+let values = Object.values(person)
+console.log(values)
+
+let entries = Object.entries(person)
+console.log(entries)
+
 
 
 
