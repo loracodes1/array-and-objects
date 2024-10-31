@@ -88,6 +88,14 @@ numbers.forEach(num => console.log(num));
 let firstEven = numbers.find(num => num % 2 ===0)
 console.log(firstEven)
 
+// OBJECTS
+//CREATING OBJECTS USING {} (CURLY BRACES)
+let person ={
+    name:"Florence",
+    age:21,
+    isStudent: true,
+    residence: "Meru town"
+}
 
 
 
